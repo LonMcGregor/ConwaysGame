@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1;" />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="icon" href="favicon.ico" />
+    <title>Conways Game</title>
+    <script type="text/javascript" src="jquery-2.1.4.js"></script>
+</head>
+<body>
+    <div id="gameContainer">
+    </div>
+    <div id="gameControls">
+        <button id="cmdStop">Stop</button>
+        <button id="cmdStart">Start</button>
+        <span>Iteration Time: </span><input type="number" id="dataI" value="20"></input><span>ms</span>
+        <br />
+        <span>Rows: </span><input type="number" id="dataX" value="30"></input>
+        <span>Columns: </span><input type="number" id="dataY" value="30"></input>
+        <button id="cmdReset">Reset</button>
+    </div>
+    <script type="text/javascript" src="logic.js"></script>
+    <script type="text/javascript" src="controls.js"></script>
+    <script type="text/javascript" src="dom.js"></script>
+</body>
+</html>

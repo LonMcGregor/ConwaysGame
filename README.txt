@@ -1,0 +1,1 @@
+This is a fairly inefficient implementation of 'Conways Game of Life'.
